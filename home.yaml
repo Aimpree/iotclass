@@ -1,0 +1,21 @@
+cells:
+  room1:
+    data: 200
+    label:
+      dataRef: "sample_sensor_metric_temperature"
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+
+  room2:
+    dataRef: "temperature-room2"
+    label:
+      dataRef: "sample_sensor_metric_temperature"
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
